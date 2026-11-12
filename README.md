@@ -37,7 +37,7 @@ No dependencies beyond Python 3.9+ (`pytest` for the tests).
 
 ## Results
 
-Profiles trained on the nine `*-train.txt` files (n = 1–3, top 300) and evaluated on the `*-test.txt` files, re-run on 2026-11-12. All nine whole test documents are identified correctly. To measure how much text the method needs, the test files were also cut into non-overlapping snippets of *k* words:
+Profiles trained on the nine `*-train.txt` files (n = 1–3, top 300) and evaluated on the `*-test.txt` files. All nine whole test documents are identified correctly. To measure how much text the method needs, the test files were also cut into non-overlapping snippets of *k* words:
 
 | Snippet length (words) | 1 | 3 | 5 | 10 | 20 | 50 |
 |---|---|---|---|---|---|---|
